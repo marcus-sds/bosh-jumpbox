@@ -32,7 +32,6 @@ end
 
 include_recipe 'ark'
 include_recipe 'golang'
-include_recipe 'terraform'
 include_recipe 'ruby-ng::dev'
 
 remote_file node['direnv']['path'] do
